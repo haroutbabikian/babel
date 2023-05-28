@@ -9,7 +9,9 @@ function MainPage() {
       <div className="m-0 w-0 h-0">&nbsp;</div>
       <div className="bg-white m-4 sm:m-14 rounded-lg sm:px-14 py-2">
         <PageTop />
-        <CardGrid />
+        <div className="">
+          <CardGrid />
+        </div>
         <Footer />
       </div>
       <div className="m-0 w-0 h-0">&nbsp;</div>

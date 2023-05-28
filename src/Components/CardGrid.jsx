@@ -53,7 +53,7 @@ const CardGrid = () => {
       <CategoryCard
         title={topCategory.name}
         imageSrc={topCategory.imageURL}
-        imgSize={"h-5/6"}
+        imgSize={"sm:h-64 md:h-5/6"}
         id={topCategory.id}
       />
     </div>

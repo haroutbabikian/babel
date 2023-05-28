@@ -7,7 +7,7 @@ function CategoryCard({ imageSrc, title, id, imgSize}) {
   const handleCategoryClick = (id) => {
     // Perform the PUT request using the categoryId
     // You can replace the placeholder URL with your actual API endpoint
-    fetch(`http://127.0.0.1:8000/api/clicks/${id}`, {
+    fetch(`http://localhost:8000/api/clicks/${id}`, {
       method: "PUT",
       // Add any necessary headers or body data for the PUT request
     })

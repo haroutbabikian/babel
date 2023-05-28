@@ -22,10 +22,6 @@ function Header() {
       // Send the PUT request to the login API endpoint
       const response = await fetch("http://localhost:8000/api/logout", {
         method: "POST",
-        headers: {
-          // Include the 'jwt' cookie in the request headers
-          Cookie: document.cookie,
-        },
       });
 
       if (response.ok) {
@@ -107,7 +103,7 @@ function Header() {
                       <form onSubmit={handleLoginFormSubmit}>
                         <div className="mb-4">
                           <label htmlFor="email" className="block mb-2 text-sm">
-                            :بريدك الالكتروني
+                            بريدك الالكتروني
                           </label>
                           <input
                             type="text"
@@ -122,7 +118,7 @@ function Header() {
                             htmlFor="password"
                             className="block mb-2 text-sm"
                           >
-                            كلمة المرور:
+                            كلمة المرور
                           </label>
                           <input
                             type="password"

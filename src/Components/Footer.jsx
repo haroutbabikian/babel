@@ -7,11 +7,10 @@ function Footer() {
   return (
     <div className="mt-6">
         <hr />
-      <div className="grid grid-cols-1 sm:grid-cols-2 mb-8 auto-rows-fr">
+      <div className="grid grid-cols-1 md:grid-cols-2 mb-8 auto-rows-fr">
         <MostReadSection />
         <div className="h-2/3">
         <AdBox />
-
         </div>
       </div>
       <hr />
